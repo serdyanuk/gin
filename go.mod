@@ -29,3 +29,8 @@ require (
 	golang.org/x/sys v0.11.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 )
+
+replace (
+	github.com/gin-gonic/gin => github.com/serdyanuk/gin v1.9.2
+	github.com/gin-gonic/gin v1.9.1 => github.com/serdyanuk/gin v1.9.2
+)
